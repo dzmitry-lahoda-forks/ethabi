@@ -7,11 +7,10 @@
 // except according to those terms.
 
 //! Ethereum ABI encoding decoding library.
-
+#![feature(error_in_core)]
 #![cfg_attr(not(feature = "std"), no_std)]
 #![allow(clippy::module_inception)]
 #![warn(missing_docs)]
-
 #[cfg_attr(not(feature = "std"), macro_use)]
 extern crate alloc;
 #[cfg(not(feature = "std"))]
